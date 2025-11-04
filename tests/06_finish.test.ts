@@ -7,7 +7,7 @@ import { DeliveryAddressPage } from '../pages/deliveryAddressPage';
 import { FinishPage } from '../pages/finishPage';
 
 
-test('Login → Add to Cart → Go to Cart Page', async ({ page }) => {
+test('login works @sanity', async ({ page }) => {
     const loginPage = new LoginPage(page);
     const addToCartPage = new AddToCartPage(page);
     const goToCartPage = new GoToCartPage(page);
