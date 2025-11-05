@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {"test": "playwright test",
+  "scripts": {
+    "test": "playwright test",
     "test:sanity": "playwright test -g \"@sanity\"",
     "report": "playwright show-report"
   },
@@ -13,6 +14,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.55.1",
-    "@types/node": "^24.5.2"
+    "@types/node": "^24.5.2",
+    "allure-playwright": "^3.4.2"
   }
 }

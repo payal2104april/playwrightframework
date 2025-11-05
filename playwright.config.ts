@@ -7,10 +7,14 @@ export default defineConfig({
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
-  reporter: 'html',
+  reporter: [['html'],
+    ['list'],
+    ['allure-playwright']   // 👈 this creates allure-results folder automatically
+],
   use: {
     // slowMo add kiya (2 sec = 2000 ms delay har action pe)
-    launchOptions: {
+    launchOptions:
+     {
       slowMo: 2000,
     },
     trace: 'on-first-retry',
