@@ -25,6 +25,6 @@ export default defineConfig({
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
-    // Agar firefox/webkit chahiye to unko enable kar sakte ho
+    
   ],
 });
