@@ -1,1 +1,1 @@
-{"uid":"b1a8273437954620fa374b796ffaacdd","name":"behaviors","children":[]}
+{"uid":"b1a8273437954620fa374b796ffaacdd","name":"behaviors","children":[{"name":"login works @sanity","uid":"669fe0e583d76203","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1762792036874,"stop":1762792063146,"duration":26272},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":["chromium"],"tags":["sanity"]}]}
